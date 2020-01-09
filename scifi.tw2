@@ -1,6 +1,6 @@
 ::@include style.tw2
 
-::Starto [haml]
+::Start [haml]
 .fade0.delay1 babylon grieving
 .fade0.delay3 by moody rahman
 .fade3.delay4 [[start|intro0]]
@@ -26,7 +26,7 @@
 .fade0.delay7 Rest In Peace <br> *You can cry, ain't no shame in it*
 %br
 %br
-.fade1.delay8 [[lets watch some more!|intro0]]
+.fade1.delay8 [[lets watch some more!|intro2]]
 
 ::intro2 [haml]
 .fade0.delay1 .

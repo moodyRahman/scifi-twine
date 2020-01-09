@@ -1,11 +1,18 @@
-::Start [haml]
-.
+::dream0 [haml]
+.fade0.delay0 it dreams of the void
+%br
+.fade0.delay2 it dreams of a single point in the void
+%br
+.fade2.delay3 [[Start|dream1]]
 
 
 
-::Starta [haml]
+::dream1 [haml]
 .fade1.delay0 The quark-gluon plasma expands at breathtaking speeds as the baby universe grows.
 .fade1.delay1 It coalesces into a soup of protons, neutrons and electrons.
 .fade1.delay3 Primordial molecules form, eventually creating hydrogen to fuel stars.
 .fade2.delay6 A cloud of gas accretes and collapses into itself
-.fade2.delay7 [[The first star shines|grencaid]]
+.fade2.delay7 [[A star shines|grencaid]]
+
+::grencaid [haml]
+.fade0.delay1
