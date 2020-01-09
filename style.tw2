@@ -1,0 +1,1193 @@
+::style [stylesheet]
+
+@keyframes example {
+  0%   {opacity: 0.0;}
+  100% {opacity: 1.0;}
+}
+
+.body{
+  background-color: blue
+}
+
+.fade0 {
+  opacity: 0.0;
+  animation: example 0s 1;
+  animation-fill-mode: forwards;
+}
+
+.fade1 {
+  opacity: 0.0;
+  animation: example 1s 1;
+  animation-fill-mode: forwards;
+}
+
+.fade2 {
+  opacity: 0.0;
+  animation: example 2s 1;
+  animation-fill-mode: forwards;
+}
+
+.fade3 {
+  opacity: 0.0;
+  animation: example 3s 1;
+  animation-fill-mode: forwards;
+}
+
+.fade4 {
+  opacity: 0.0;
+  animation: example 4s 1;
+  animation-fill-mode: forwards;
+}
+
+.fade5 {
+  opacity: 0.0;`
+  animation: example 5s 1;
+  animation-fill-mode: forwards;
+}
+
+.delay1{
+  animation-delay: 1s;
+}
+
+.delay2{
+  animation-delay: 2s;
+}
+
+.delay3{
+  animation-delay: 3s;
+}
+
+.delay4{
+  animation-delay: 4s;
+}
+
+.delay5{
+  animation-delay: 5s;
+}
+
+.delay6{
+  animation-delay: 6s;
+}
+
+
+.delay7{
+animation-delay: 7s;
+}
+
+
+.delay8{
+animation-delay: 8s;
+}
+
+
+.delay9{
+animation-delay: 9s;
+}
+
+
+.delay10{
+animation-delay: 10s;
+}
+
+
+.delay11{
+animation-delay: 11s;
+}
+
+
+.delay12{
+animation-delay: 12s;
+}
+
+
+.delay13{
+animation-delay: 13s;
+}
+
+
+.delay14{
+animation-delay: 14s;
+}
+
+
+.delay15{
+animation-delay: 15s;
+}
+
+
+.delay16{
+animation-delay: 16s;
+}
+
+
+.delay17{
+animation-delay: 17s;
+}
+
+
+.delay18{
+animation-delay: 18s;
+}
+
+
+.delay19{
+animation-delay: 19s;
+}
+
+
+.delay20{
+animation-delay: 20s;
+}
+
+
+.delay21{
+animation-delay: 21s;
+}
+
+
+.delay22{
+animation-delay: 22s;
+}
+
+
+.delay23{
+animation-delay: 23s;
+}
+
+
+.delay24{
+animation-delay: 24s;
+}
+
+
+.delay25{
+animation-delay: 25s;
+}
+
+
+.delay26{
+animation-delay: 26s;
+}
+
+
+.delay27{
+animation-delay: 27s;
+}
+
+
+.delay28{
+animation-delay: 28s;
+}
+
+
+.delay29{
+animation-delay: 29s;
+}
+
+
+.delay30{
+animation-delay: 30s;
+}
+
+
+.delay31{
+animation-delay: 31s;
+}
+
+
+.delay32{
+animation-delay: 32s;
+}
+
+
+.delay33{
+animation-delay: 33s;
+}
+
+
+.delay34{
+animation-delay: 34s;
+}
+
+
+.delay35{
+animation-delay: 35s;
+}
+
+
+.delay36{
+animation-delay: 36s;
+}
+
+
+.delay37{
+animation-delay: 37s;
+}
+
+
+.delay38{
+animation-delay: 38s;
+}
+
+
+.delay39{
+animation-delay: 39s;
+}
+
+
+.delay40{
+animation-delay: 40s;
+}
+
+
+.delay41{
+animation-delay: 41s;
+}
+
+
+.delay42{
+animation-delay: 42s;
+}
+
+
+.delay43{
+animation-delay: 43s;
+}
+
+
+.delay44{
+animation-delay: 44s;
+}
+
+
+.delay45{
+animation-delay: 45s;
+}
+
+
+.delay46{
+animation-delay: 46s;
+}
+
+
+.delay47{
+animation-delay: 47s;
+}
+
+
+.delay48{
+animation-delay: 48s;
+}
+
+
+.delay49{
+animation-delay: 49s;
+}
+
+
+.delay50{
+animation-delay: 50s;
+}
+
+
+.delay51{
+animation-delay: 51s;
+}
+
+
+.delay52{
+animation-delay: 52s;
+}
+
+
+.delay53{
+animation-delay: 53s;
+}
+
+
+.delay54{
+animation-delay: 54s;
+}
+
+
+.delay55{
+animation-delay: 55s;
+}
+
+
+.delay56{
+animation-delay: 56s;
+}
+
+
+.delay57{
+animation-delay: 57s;
+}
+
+
+.delay58{
+animation-delay: 58s;
+}
+
+
+.delay59{
+animation-delay: 59s;
+}
+
+
+.delay60{
+animation-delay: 60s;
+}
+
+
+.delay61{
+animation-delay: 61s;
+}
+
+
+.delay62{
+animation-delay: 62s;
+}
+
+
+.delay63{
+animation-delay: 63s;
+}
+
+
+.delay64{
+animation-delay: 64s;
+}
+
+
+.delay65{
+animation-delay: 65s;
+}
+
+
+.delay66{
+animation-delay: 66s;
+}
+
+
+.delay67{
+animation-delay: 67s;
+}
+
+
+.delay68{
+animation-delay: 68s;
+}
+
+
+.delay69{
+animation-delay: 69s;
+}
+
+
+.delay70{
+animation-delay: 70s;
+}
+
+
+.delay71{
+animation-delay: 71s;
+}
+
+
+.delay72{
+animation-delay: 72s;
+}
+
+
+.delay73{
+animation-delay: 73s;
+}
+
+
+.delay74{
+animation-delay: 74s;
+}
+
+
+.delay75{
+animation-delay: 75s;
+}
+
+
+.delay76{
+animation-delay: 76s;
+}
+
+
+.delay77{
+animation-delay: 77s;
+}
+
+
+.delay78{
+animation-delay: 78s;
+}
+
+
+.delay79{
+animation-delay: 79s;
+}
+
+
+.delay80{
+animation-delay: 80s;
+}
+
+
+.delay81{
+animation-delay: 81s;
+}
+
+
+.delay82{
+animation-delay: 82s;
+}
+
+
+.delay83{
+animation-delay: 83s;
+}
+
+
+.delay84{
+animation-delay: 84s;
+}
+
+
+.delay85{
+animation-delay: 85s;
+}
+
+
+.delay86{
+animation-delay: 86s;
+}
+
+
+.delay87{
+animation-delay: 87s;
+}
+
+
+.delay88{
+animation-delay: 88s;
+}
+
+
+.delay89{
+animation-delay: 89s;
+}
+
+
+.delay90{
+animation-delay: 90s;
+}
+
+
+.delay91{
+animation-delay: 91s;
+}
+
+
+.delay92{
+animation-delay: 92s;
+}
+
+
+.delay93{
+animation-delay: 93s;
+}
+
+
+.delay94{
+animation-delay: 94s;
+}
+
+
+.delay95{
+animation-delay: 95s;
+}
+
+
+.delay96{
+animation-delay: 96s;
+}
+
+
+.delay97{
+animation-delay: 97s;
+}
+
+
+.delay98{
+animation-delay: 98s;
+}
+
+
+.delay99{
+animation-delay: 99s;
+}
+
+
+.fade6{
+opacity: 0.0;
+animation: example 6s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade7{
+opacity: 0.0;
+animation: example 7s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade8{
+opacity: 0.0;
+animation: example 8s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade9{
+opacity: 0.0;
+animation: example 9s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade10{
+opacity: 0.0;
+animation: example 10s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade11{
+opacity: 0.0;
+animation: example 11s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade12{
+opacity: 0.0;
+animation: example 12s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade13{
+opacity: 0.0;
+animation: example 13s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade14{
+opacity: 0.0;
+animation: example 14s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade15{
+opacity: 0.0;
+animation: example 15s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade16{
+opacity: 0.0;
+animation: example 16s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade17{
+opacity: 0.0;
+animation: example 17s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade18{
+opacity: 0.0;
+animation: example 18s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade19{
+opacity: 0.0;
+animation: example 19s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade20{
+opacity: 0.0;
+animation: example 20s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade21{
+opacity: 0.0;
+animation: example 21s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade22{
+opacity: 0.0;
+animation: example 22s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade23{
+opacity: 0.0;
+animation: example 23s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade24{
+opacity: 0.0;
+animation: example 24s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade25{
+opacity: 0.0;
+animation: example 25s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade26{
+opacity: 0.0;
+animation: example 26s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade27{
+opacity: 0.0;
+animation: example 27s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade28{
+opacity: 0.0;
+animation: example 28s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade29{
+opacity: 0.0;
+animation: example 29s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade30{
+opacity: 0.0;
+animation: example 30s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade31{
+opacity: 0.0;
+animation: example 31s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade32{
+opacity: 0.0;
+animation: example 32s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade33{
+opacity: 0.0;
+animation: example 33s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade34{
+opacity: 0.0;
+animation: example 34s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade35{
+opacity: 0.0;
+animation: example 35s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade36{
+opacity: 0.0;
+animation: example 36s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade37{
+opacity: 0.0;
+animation: example 37s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade38{
+opacity: 0.0;
+animation: example 38s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade39{
+opacity: 0.0;
+animation: example 39s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade40{
+opacity: 0.0;
+animation: example 40s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade41{
+opacity: 0.0;
+animation: example 41s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade42{
+opacity: 0.0;
+animation: example 42s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade43{
+opacity: 0.0;
+animation: example 43s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade44{
+opacity: 0.0;
+animation: example 44s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade45{
+opacity: 0.0;
+animation: example 45s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade46{
+opacity: 0.0;
+animation: example 46s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade47{
+opacity: 0.0;
+animation: example 47s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade48{
+opacity: 0.0;
+animation: example 48s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade49{
+opacity: 0.0;
+animation: example 49s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade50{
+opacity: 0.0;
+animation: example 50s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade51{
+opacity: 0.0;
+animation: example 51s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade52{
+opacity: 0.0;
+animation: example 52s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade53{
+opacity: 0.0;
+animation: example 53s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade54{
+opacity: 0.0;
+animation: example 54s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade55{
+opacity: 0.0;
+animation: example 55s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade56{
+opacity: 0.0;
+animation: example 56s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade57{
+opacity: 0.0;
+animation: example 57s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade58{
+opacity: 0.0;
+animation: example 58s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade59{
+opacity: 0.0;
+animation: example 59s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade60{
+opacity: 0.0;
+animation: example 60s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade61{
+opacity: 0.0;
+animation: example 61s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade62{
+opacity: 0.0;
+animation: example 62s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade63{
+opacity: 0.0;
+animation: example 63s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade64{
+opacity: 0.0;
+animation: example 64s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade65{
+opacity: 0.0;
+animation: example 65s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade66{
+opacity: 0.0;
+animation: example 66s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade67{
+opacity: 0.0;
+animation: example 67s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade68{
+opacity: 0.0;
+animation: example 68s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade69{
+opacity: 0.0;
+animation: example 69s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade70{
+opacity: 0.0;
+animation: example 70s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade71{
+opacity: 0.0;
+animation: example 71s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade72{
+opacity: 0.0;
+animation: example 72s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade73{
+opacity: 0.0;
+animation: example 73s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade74{
+opacity: 0.0;
+animation: example 74s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade75{
+opacity: 0.0;
+animation: example 75s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade76{
+opacity: 0.0;
+animation: example 76s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade77{
+opacity: 0.0;
+animation: example 77s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade78{
+opacity: 0.0;
+animation: example 78s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade79{
+opacity: 0.0;
+animation: example 79s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade80{
+opacity: 0.0;
+animation: example 80s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade81{
+opacity: 0.0;
+animation: example 81s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade82{
+opacity: 0.0;
+animation: example 82s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade83{
+opacity: 0.0;
+animation: example 83s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade84{
+opacity: 0.0;
+animation: example 84s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade85{
+opacity: 0.0;
+animation: example 85s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade86{
+opacity: 0.0;
+animation: example 86s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade87{
+opacity: 0.0;
+animation: example 87s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade88{
+opacity: 0.0;
+animation: example 88s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade89{
+opacity: 0.0;
+animation: example 89s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade90{
+opacity: 0.0;
+animation: example 90s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade91{
+opacity: 0.0;
+animation: example 91s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade92{
+opacity: 0.0;
+animation: example 92s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade93{
+opacity: 0.0;
+animation: example 93s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade94{
+opacity: 0.0;
+animation: example 94s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade95{
+opacity: 0.0;
+animation: example 95s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade96{
+opacity: 0.0;
+animation: example 96s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade97{
+opacity: 0.0;
+animation: example 97s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade98{
+opacity: 0.0;
+animation: example 98s 1;
+animation-fill-mode: forwards;
+}
+
+
+.fade99{
+opacity: 0.0;
+animation: example 99s 1;
+animation-fill-mode: forwards;
+}
