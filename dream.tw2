@@ -16,12 +16,12 @@
 
 
 ::grencaid [haml]
-/* ::Start [haml] */
 .fade0.delay1 The Dust around the star gives birth to celestial bodies of terra and water.
 .fade1.delay2 The Dust around each planet gives birth to creatures of terra and water.
 %br
 .fade1.delay3 From these creatures, across the millenia, arose civilization and strife.
 .fade1.delay4 Arose love and plagues.
 .fade1.delay5 Arose art and war
-.fade3.delay6 Arose an indivudal named Grencaid.
-[[]] monkeys will also
+.fade3.delay6 And long, long before all that, arose an individual named Grencaid.
+
+::grencaid [haml]

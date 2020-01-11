@@ -9,21 +9,21 @@
 ::intro0 [haml]
 .fade3 they say that infinite monkeys in an infinite room will eventually write Hamlet
 %br
-.fade3.delay3 the monkeys will also write what happened to Amelia Earhart, where is Atlantis, and the true nature of God
+.fade3.delay3 they'll also write what happened to amelia earhart, where is atlantis, and the true nature of God
 %br
-.fade3.delay5 as it turns out, the universe is much like this <br> as time progresses, stars born and die, mere instants in the vastness of time <br> they synthesize new types of atoms to populate the universe
+.fade3.delay6 as it turns out, the universe is much like this <br> as time progresses, stars are born and then die, <br>mere instants in the vastness of time <br> they synthesize new types of atoms to populate the universe
 %br
-.fade3.delay7 all the atoms rush around throughout all of existence, sometimes they collide into each other and form molecules.
+.fade3.delay9 all the atoms rush around throughout all of existence, sometimes they collide into each other and form molecules.
 %br
-.fade3.delay9 sometimes, those molecules smash into each other and form larger and more complicated structures
+.fade3.delay12 sometimes, those molecules smash into each other and form larger and more complicated structures
 
-.fade0.delay11 [[lets watch|intro1]]
+.fade0.delay15 [[lets watch|intro1]]
 
 ::intro1 [haml]
-.fade1 look! Will Smith just formed from the infinite randomness!
+.fade1 look! will smith just formed from the infinite randomness!
 %br
-.fade0.delay5 Will Smith just died after a brief moment of existing in the oxygenless environment of deep space.
-.fade0.delay7 Rest In Peace <br> *You can cry, ain't no shame in it*
+.fade0.delay5 will smith just died after a brief moment of existing in the oxygenless environment of deep space.
+.fade0.delay7 Rest In Peace <br> *How you live such a happy life? ~ Agent J, Men in Black III*
 %br
 %br
 .fade1.delay8 [[lets watch some more!|intro2]]
