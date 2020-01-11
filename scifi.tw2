@@ -1,6 +1,6 @@
 ::@include style.tw2
 
-::Start [haml]
+::Starto [haml]
 .fade0.delay1 babylon grieving
 .fade0.delay3 by moody rahman
 .fade3.delay4 [[start|intro0]]
@@ -9,7 +9,7 @@
 ::intro0 [haml]
 .fade3 they say that infinite monkeys in an infinite room will eventually write Hamlet
 %br
-.fade3.delay3 they'll also write what happened to amelia earhart, where is atlantis, and the true nature of God
+.fade3.delay3 they'll also write what happened to amelia earhart, where is atlantis, and the true nature of god
 %br
 .fade3.delay6 as it turns out, the universe is much like this <br> as time progresses, stars are born and then die, <br>mere instants in the vastness of time <br> they synthesize new types of atoms to populate the universe
 %br
@@ -37,13 +37,17 @@
 .fade0.delay6 [[inspect brain|intro3]]
 
 ::intro3 [haml]
-.fade0.delay0 truth be told, i can't figure out who it belongs to
-.fade0.delay2 not even what species this belongs to
-.fade0.delay4 and that's saying something, i'm the closest thing to a god that you've seen so far
-.fade0.delay6 it's fated to die in the next few milliseconds
-%strong.fade2.delay7 ...
-.fade2.delay9 it's dreaming
-.fade2.delay11 [[observe the dream|dream0]]
+.fade0.delay1 it's about 20 inches in diameter, and perfectly smooth
+.fade0.delay3 there's not even a brainstem
+.fade0.delay5 truth be told, i can't figure out who it belongs to
+.fade0.delay7 not even what species this belongs to
+.fade0.delay10 and that's saying something, i'm the closest thing to a god that you've seen so far
+.fade0.delay15 it's fated to die in the next few milliseconds
+.fade2.delay16 .
+.fade2.delay17 .
+.fade2.delay18 .
+.fade2.delay20 it's dreaming
+.fade2.delay22 [[observe the dream|dream0]]
 
 ::@include dream.tw2
 

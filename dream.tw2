@@ -1,4 +1,4 @@
-::dream0 [haml]
+::Start [haml]
 .fade0.delay0 it dreams of the void
 %br
 .fade0.delay2 it dreams of a single point in the void
@@ -23,5 +23,3 @@
 .fade1.delay4 Arose love and plagues.
 .fade1.delay5 Arose art and war
 .fade3.delay6 And long, long before all that, arose an individual named Grencaid.
-
-::grencaid [haml]
