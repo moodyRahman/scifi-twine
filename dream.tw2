@@ -1,3 +1,7 @@
+:: StoryTitle
+babylon lost
+
+
 ::dream0 [haml]
 .fade0.delay0 it dreams of the void
 %br
@@ -16,27 +20,35 @@
 
 
 ::grencaid [haml]
-.fade0.delay1 The Dust around the star gives birth to celestial bodies of terra and water.
-.fade1.delay2 The Dust around each planet gives birth to creatures of terra and water.
+.fade1.delay1 The dust around the star gives birth to celestial bodies of terra and water.
+.fade1.delay3 The dust around each planet gives birth to creatures of terra and water.
 %br
-.fade1.delay3 From these creatures, across the millenia, arose civilization and strife.
-.fade1.delay4 Arose love and plagues.
-.fade1.delay5 Arose art and war
-.fade3.delay6 And long, long before all that, arose an individual named [[Grencaid|forage0]].
+.fade1.delay5 From these creatures, across the millenia, arose civilization and strife.
+.fade1.delay7 Arose love and plagues.
+.fade1.delay9 Arose art and war
+.fade3.delay12 And long, long before all that, before history began, was an individual named [[Grencaid|forage0]].
 
 
 
 ::forage0 [haml]
-.fade3.delay1 The sun beats down on the inhabitants of this village as they go about their day.
-.fade3.delay4 They were a hard-working and industrious people, farming was invented just the other day.
-.fade1.delay8 Some of them were staring at the ashuin, trying their best to see their crops slow growth.
-.fade0.delay13 Grencaid was ogling at the village beauty, Aled.
+.fade3.delay1 The sun was beating down on the inhabitants of this village as they went about their day.
+.fade3.delay4 The village consisted of about 20 huts, small but well built, centered around a large storehouse of grain.
+.fade3.delay8 Patches of fertile land dotted the area with several people tending to them.
+.fade1.delay12 They were a hard-working and industrious people, farming was invented just the other day.
+
+.fade1.delay16 Some of them were staring at the ashuin, trying their best to see their crops slow growth.
 %br
-.fade0.delay15 [[goddamn look at those hips GO|forage1]]
+%br
+.fade0.delay21 Grencaid was ogling at the village beauty, Aled.
+%br
+.fade0.delay24 [[goddamn look at those hips GO|forage1]]
 
 
 ::forage1 [haml]
-%strong.fade0.delay1 [[BONK|forage2]]
+%br
+%br
+%br
+%center.fade0.delay1 <b style="font-size: 2em;">[[BONK|forage2]]</b>
 
 
 ::forage2 [haml]
@@ -48,9 +60,9 @@
 .fade0.delay7 What should Grencaid say?
 %br
 %br
-.fade0.delay9 [[Hello grandmother, how are you doing today?|forage3polite]]
-.fade0.delay10 [[Ow! That hurt! What's your problem you old hag?|forage3angry]]
-.fade0.delay11 [[-stay silent-|forage3silent]]
+.fade1.delay9 [[Hello grandmother, how are you doing today?|forage3polite]]
+.fade2.delay10 [[Ow! That hurt! What's your problem you old hag?|forage3angry]]
+.fade3.delay11 [[-stay silent-|forage3silent]]
 
 
 ::forage3polite [haml]
@@ -116,7 +128,7 @@
 .fade0.delay12 [[stop walking|oldreality1]]
 
 
-::oldreality0 [haml]
+::oldreality1 [haml]
 .fade3.delay1 Grencaid stopped walking and watched his surroundings.
 .fade2.delay4 The moons slowly rose through the night sky.
 .fade1.delay6 Visibly rose.
@@ -124,7 +136,7 @@
 .fade0.delay10 Until, the moons were behind him. The sky was tinged violet as the new morning begun.
 .fade0.delay12 His heart started beating rapidly as breathing turned ragged.
 .fade0.delay13 A minute of daylight later and he saw the moons again.
-.fade0.delay14 The sun and the moons kept rising and falling in rapid succession until they became a single ring in the oscillating colors of the sky.
+.fade0.delay14 The sun and the twin moons kept rising and falling in rapid succession until they became a three rings in the oscillating colors of the sky.
 %br
 .fade0.delay15 It's been forty minutes since his encounter with his grandmother.
 %br
@@ -147,7 +159,7 @@
 .fade2.delay19  [[go to the cheshweh tree|oldreality2tree]]
 
 
-:: Start [haml]
+::oldreality2tree [haml]
 .fade0.delay1 Grencaid rushed to the cheshweh tree. Where the cheshweh tree was, he found
 .fade4.delay2 a column of light reaching into the heavens.
 .fade3.delay6 It flickered with electric blue whisps dancing around a central column of glacial white energy, emanating from where the cheshweh tree once was.
@@ -157,6 +169,8 @@
 .fade3.delay22 It's been sixty minutes since he last saw his grandmother.
 %br
 %br
-.fade4.delay26 [[*start* |future0]]
+.fade4.delay26 Somewhere, far away, a handful of neurons start to break apart.
+%br
+.fade4.delay30 [[*start* |future0]]
 
 ::@include future.tw2
