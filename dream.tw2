@@ -1,4 +1,4 @@
-::Start [haml]
+::dream0 [haml]
 .fade0.delay0 it dreams of the void
 %br
 .fade0.delay2 it dreams of a single point in the void
@@ -22,4 +22,141 @@
 .fade1.delay3 From these creatures, across the millenia, arose civilization and strife.
 .fade1.delay4 Arose love and plagues.
 .fade1.delay5 Arose art and war
-.fade3.delay6 And long, long before all that, arose an individual named Grencaid.
+.fade3.delay6 And long, long before all that, arose an individual named [[Grencaid|forage0]].
+
+
+
+::forage0 [haml]
+.fade3.delay1 The sun beats down on the inhabitants of this village as they go about their day.
+.fade3.delay4 They were a hard-working and industrious people, farming was invented just the other day.
+.fade1.delay8 Some of them were staring at the ashuin, trying their best to see their crops slow growth.
+.fade0.delay13 Grencaid was ogling at the village beauty, Aled.
+%br
+.fade0.delay15 [[goddamn look at those hips GO|forage1]]
+
+
+::forage1 [haml]
+%strong.fade0.delay1 [[BONK|forage2]]
+
+
+::forage2 [haml]
+.fade0.delay1 Grencaid felt a blunt force land on his head.
+.fade0.delay3 His grandmother, Ralbe, stood behind him. She rapped her walking stick against the ground, visibly annoyed. A basket was strapped to her back.
+%br
+%br
+%br
+.fade0.delay7 What should Grencaid say?
+%br
+%br
+.fade0.delay9 [[Hello grandmother, how are you doing today?|forage3polite]]
+.fade0.delay10 [[Ow! That hurt! What's your problem you old hag?|forage3angry]]
+.fade0.delay11 [[-stay silent-|forage3silent]]
+
+
+::forage3polite [haml]
+.fade1.delay1 "Hello grandmama, I hope you're having a wonderful walk this lovely afternoon!"
+%br
+.fade0.delay5 Ralbe stared at Grencaid, fully aware of what he was doing a few moments prior.
+.fade0.delay8 "Idiot boy, you had one job. The cheshweh tree is ripening and its fruits will soon spoil.
+.fade0.delay8 You forgot your basket, and here I come to deliver it to you only to catch you wasting your time with these girls."
+%br
+.fade0.delay15 She whipped the basket off of her back and placed it on Grencaid's head
+%br
+.fade0.delay19 "And one more thing my grandchild, you definitely don't have enough game to chase Aled.
+.fade0.delay19 The sun will set in about four hours, be sure to come back soon."
+%br
+.fade2.delay22 [[walk to the cheshweh tree|forage4]]
+
+
+::forage3angry [haml]
+.fade0.delay1 .
+.fade0.delay2 .
+.fade0.delay3 .
+.fade0.delay4 "Stupid idiot boy why did I even bother sending you to do one one simple task you unreliable idiot always lazing about and staring at a girl that you have no chance with and I try to be nice for once and bring you the basket that you forgot and you treat your grandmama like this you piece of Xecrellian trash I wish my daughter had never given birth to you and don't you even dare thinking about staying late the sun is going to set in four hours idiot child"
+%br
+.fade2.delay8 Grencaid's gaping at the string of expletives was cut short as his grandmother proceeded to hit him on the head again, even harder this time.
+.fade0.delay12 She threw the basket at Grencaid
+.fade0.delay13 "And don't even think about coming back home until that basket is full with cheshweh fruit."
+%br
+.fade2.delay15 [[walk to the cheshweh tree|forage4]]
+
+
+/* ::forage3silent [haml] */
+::forage3silent [haml]
+.fade0.delay1 .
+.fade0.delay2 .
+.fade0.delay3 .
+.fade0.delay5 "You always were the odd one weren't you. Anyhow, you forgot your basket. Be sure to come home with some cheshweh fruit. The sun sets in four hours, so be sure to come home soon, okay?"
+%br
+.fade2.delay7 [[walk to the cheshweh tree|forage4]]
+
+::forage4 [haml]
+.fade1.delay1 The sunlight filtered through the canopy as the squeebles chirped their [[songs]].
+.fade1.delay3 The cool shade was a blessed repreive from the scorching afternoon as Grencaid meandered to the cheshweh tree.
+%br
+.fade4.delay6 [[The sky is growing darker...|oldreality0]]
+
+
+::songs [haml]
+<div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+%br
+%br
+.fade4.delay4 [[i'm oh so terribly sorry|forage4]]
+
+
+::oldreality0 [haml]
+.fade3.delay1 The shadows were growing long around Grencaid as he walked through the forest.
+.fade3.delay4 The sun was setting.
+.fade1.delay8 It has been twenty minutes since his encounter with grandmother.
+%br
+.fade3.delay10 The moons were rising.
+%br
+.fade0.delay12 [[stop walking|oldreality1]]
+
+
+::oldreality0 [haml]
+.fade3.delay1 Grencaid stopped walking and watched his surroundings.
+.fade2.delay4 The moons slowly rose through the night sky.
+.fade1.delay6 Visibly rose.
+.fade0.delay8 Rose faster and faster.
+.fade0.delay10 Until, the moons were behind him. The sky was tinged violet as the new morning begun.
+.fade0.delay12 His heart started beating rapidly as breathing turned ragged.
+.fade0.delay13 A minute of daylight later and he saw the moons again.
+.fade0.delay14 The sun and the moons kept rising and falling in rapid succession until they became a single ring in the oscillating colors of the sky.
+%br
+.fade0.delay15 It's been forty minutes since his encounter with his grandmother.
+%br
+%br
+.fade0.delay19 [[go back to the village|oldreality2village]]
+.fade0.delay20 [[go to the tree|oldreality2tree]]
+
+
+::oldreality2village [haml]
+.fade0.delay1 Grencaid rushed back to the village, only to find
+.fade1.delay3 absolutely no one.
+.fade1.delay5 The sky was now an unnatural shade of lavender, the night and day skies blurring into one color.
+.fade1.delay8 The plants and surrounding trees shifted, weeks of growth passing by in seconds.
+%br
+.fade1.delay10 Ivy grew up the walls of the huts as the grass died and regrew. The trees continue shifting in place, losing their leaves.
+.fade1.delay12 The trees collapsed as new ones grew to take their place.
+%br
+.fade0.delay15 Grencaid closed his eyes and lied down, the grass in perpertual flux tickled his back.
+%br
+.fade2.delay19  [[go to the cheshweh tree|oldreality2tree]]
+
+
+:: Start [haml]
+.fade0.delay1 Grencaid rushed to the cheshweh tree. Where the cheshweh tree was, he found
+.fade4.delay2 a column of light reaching into the heavens.
+.fade3.delay6 It flickered with electric blue whisps dancing around a central column of glacial white energy, emanating from where the cheshweh tree once was.
+.fade3.delay10 It pierced into the atmosphere, into a gaping maw of pure blackness surrounded by the lavender sky.
+.fade3.delay14 The surrounding flora kept on shifting as time accelerated.
+.fade3.delay18 Grencaid stepped into the pillar.
+.fade3.delay22 It's been sixty minutes since he last saw his grandmother.
+%br
+%br
+.fade4.delay26 [[*start* |future0]]
+
+::@include future.tw2

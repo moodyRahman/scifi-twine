@@ -3,6 +3,7 @@
 ::Starto [haml]
 .fade0.delay1 babylon grieving
 .fade0.delay3 by moody rahman
+%br
 .fade3.delay4 [[start|intro0]]
 
 
@@ -13,7 +14,7 @@
 %br
 .fade3.delay6 as it turns out, the universe is much like this <br> as time progresses, stars are born and then die, <br>mere instants in the vastness of time <br> they synthesize new types of atoms to populate the universe
 %br
-.fade3.delay9 all the atoms rush around throughout all of existence, sometimes they collide into each other and form molecules.
+.fade3.delay9 the atoms rush around throughout all of existence, sometimes they collide into each other and form molecules.
 %br
 .fade3.delay12 sometimes, those molecules smash into each other and form larger and more complicated structures
 
@@ -58,3 +59,4 @@
 ::StoryIncludes
 style.tw2
 dream.tw2
+future.tw2
