@@ -1,7 +1,58 @@
 :: StoryTitle
 babylon lost
 
+:: UserScript [script]
+    var s = window.story.state;
+    s.roomobjects = ["posters", "desk", "cereal"];
 
-::future0 [haml]
-under consutruction
-%p ~moody
+
+
+/* ::future0 [haml] */
+::Start [haml]
+%strong.fade0.delay1 *beep*
+%strong.fade0.delay2 *beep*
+%strong.fade0.delay3 *beep*
+
+.fade1.delay5 [[wake up|room0]]
+.fade1.delay6 [[snooze|room0]]
+
+
+::room0 [haml]
+.fade2.delay1 The sunlight trickles through the windows as Myrm sits up in her bed.
+.fade2.delay3 She moves her rumpled blankets to the side and climbs out of bed.
+.fade2.delay5 Her room is filled with various gadgets and keepsakes from her various adventures.
+%br
+%br
+
+/* <% console.log(s.roomobjects);for(i=0; i < s.roomobjects.length; i++){console.log(s.roomobjects[i])}; %> */
+
+<% if (s.roomobjects.length === 0) { %>
+[[leave|hallway]]
+<% } for(i=0; i < s.roomobjects.length; i++) { %> <%= "<div class='fade0 delay7'>[[" + s.roomobjects[i] + "|" + s.roomobjects[i] + "]]" %> <% } %>
+
+
+
+::posters [haml]
+<% var index = s.roomobjects.indexOf("posters"); if (index !== -1) s.roomobjects.splice(index, 1); %>
+
+<% if (s.roomobjects.length === 0) { %>
+[[leave|hallway]]
+<% } for(i=0; i < s.roomobjects.length; i++) { %> <%= "<div class='fade0 delay0'>[[" + s.roomobjects[i] + "|" + s.roomobjects[i] + "]]" %> <% } %>
+
+
+
+::desk [haml]
+<% var index = s.roomobjects.indexOf("desk"); if (index !== -1) s.roomobjects.splice(index, 1); %>
+
+<% if (s.roomobjects.length === 0) { %>
+[[leave|hallway]]
+<% } for(i=0; i < s.roomobjects.length; i++) { %> <%= "<div class='fade0 delay0'>[[" + s.roomobjects[i] + "|" + s.roomobjects[i] + "]]" %> <% } %>
+
+
+
+::cereal [haml]
+<% var index = s.roomobjects.indexOf("cereal"); if (index !== -1) s.roomobjects.splice(index, 1); %>
+
+<% if (s.roomobjects.length === 0) { %>
+[[leave|hallway]]
+<% } for(i=0; i < s.roomobjects.length; i++) { %> <%= "<div class='fade0 delay0'>[[" + s.roomobjects[i] + "|" + s.roomobjects[i] + "]]" %> <% } %>
