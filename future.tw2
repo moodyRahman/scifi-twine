@@ -4,6 +4,7 @@ babylon lost
 :: UserScript [script]
     var s = window.story.state;
     s.roomobjects = ["posters", "desk", "cereal"];
+    s.deskobjects = ["tonwermer machine", "gyroscope", "proyecting lenses"]
 
 
 
@@ -33,15 +34,35 @@ babylon lost
 
 
 ::posters [haml]
+
+.fade0.delay1 The wall opposite her bed is covered in posters.
+.fade0.delay3 Will Smith just dropped his three-hundredth-and-forty-third album, whose album art is taped onto your wall.
+.fade0.delay6 To its right is a timeline of Xecrellian history.
+%br
+%br
+<div class="poster">
+.fade2.delay8  *1.6 billion years ago           -  the universe was created*
+.fade2.delay10 *1 billion years ago             -  relu forms from the debris of our local star system*
+.fade2.delay12 *1.2 billion years ago           -  the twin moons, aereth and derse form from jettisonned material from relu's geothermic activity*
+.fade2.delay14 *600 million years ago           -  evidence of life on relu*
+.fade2.delay16 *50 million years ago            -  the first xecrals arose*
+.fade2.delay18 *15 million years ago            -  ashuin was domesticated, starting the agricultural revolution*
+.fade2.delay20 *15 million +- 10,000 years ago  -  evidence of a reality failure event detected*
+.fade2.delay22 *5 million years ago             -  the haber-brosch process was invented*
+.fade2.delay24 *500 thousand years ago          -  gentx was founded*
+</div>
 <% var index = s.roomobjects.indexOf("posters"); if (index !== -1) s.roomobjects.splice(index, 1); %>
 
 <% if (s.roomobjects.length === 0) { %>
 [[leave|hallway]]
-<% } for(i=0; i < s.roomobjects.length; i++) { %> <%= "<div class='fade0 delay0'>[[" + s.roomobjects[i] + "|" + s.roomobjects[i] + "]]" %> <% } %>
+<% } for(i=0; i < s.roomobjects.length; i++) { %> <%= "<div class='fade0 delay26'>[[" + s.roomobjects[i] + "|" + s.roomobjects[i] + "]]" %> <% } %>
 
 
 
 ::desk [haml]
+
+.fade0.delay1
+
 <% var index = s.roomobjects.indexOf("desk"); if (index !== -1) s.roomobjects.splice(index, 1); %>
 
 <% if (s.roomobjects.length === 0) { %>

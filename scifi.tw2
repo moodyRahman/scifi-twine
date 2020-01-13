@@ -25,12 +25,13 @@ babylon lost
 
 ::intro1 [haml]
 .fade1 look! will smith just formed from the infinite randomness!
+.fade1.delay1 just look at that gigawatt smile
 %br
-.fade0.delay5 will smith just died after a brief moment of existing in the oxygenless environment of deep space.
-.fade0.delay7 Rest In Peace <br> *How you live such a happy life? ~ Agent J, Men in Black III*
+.fade0.delay6 will smith just died after a brief moment of existing in the oxygenless environment of deep space.
+.fade0.delay8 <br>Rest In Peace <br> *How you live such a happy life? ~ Agent J, Men in Black III*
 %br
 %br
-.fade1.delay8 [[lets watch some more!|intro2]]
+.fade1.delay9 [[lets watch some more!|intro2]]
 
 ::intro2 [haml]
 .fade0.delay1 .
