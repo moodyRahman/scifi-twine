@@ -27,15 +27,16 @@ babylon lost
 ::room0 [haml]
 .fade2.delay1 The sunlight trickles through the windows as Myrm sits up in her bed.
 .fade2.delay3 She moves her rumpled blankets to the side and climbs out of bed.
-.fade2.delay5 Her room is filled with various gadgets and keepsakes from her various adventures.
+.fade3.delay5 She's wearing a pale green t-shirt and checkered sweatpants.
+.fade2.delay7 Her room is filled with various gadgets and keepsakes from her various adventures.
 %br
 %br
 
 /* <% console.log(s.roomobjects);for(i=0; i < s.roomobjects.length; i++){console.log(s.roomobjects[i])}; %> */
 
 <% if (s.roomobjects.length === 0) { %>
-<div class="fade0 delay7">[[leave room|hallway]]</div>
-<% } for(i=0; i < s.roomobjects.length; i++) { %> <%= "<div class='fade0 delay7'>[[" + s.roomobjects[i] + "|" + s.roomobjects[i] + "]]" %> <% } %>
+<div class="fade0 delay9">[[leave room|hallway]]</div>
+<% } for(i=0; i < s.roomobjects.length; i++) { %> <%= "<div class='fade0 delay9'>[[" + s.roomobjects[i] + "|" + s.roomobjects[i] + "]]" %> <% } %>
 
 
 
@@ -134,11 +135,35 @@ babylon lost
 .fade0.delay17 [[brush teeth|bathroom0]]
 
 ::grosswork [haml]
-.fade1.delay1. You're really gonna try to make Myrm leave her place without brushing her teeth?
+.fade1.delay1 You're really gonna try to make Myrm leave her place without brushing her teeth?
 .fade0.delay3 You disgusting animal.
 %br
-.fade0.delay5 [[brush teeth like a normal fucking human|bathroom0]]
+.fade0.delay5 [[brush teeth like a normal xecral for crying out loud|bathroom0]]
 
 
 ::bathroom0 [haml]
-.fade0.delay1 mood
+.fade0.delay1 Her bathroom is as average as bathrooms come.
+.fade2.delay3 It's totally empty, except for a large red button on a pedestal at the center of its smooth marble floor.
+.fade3.delay6 She presses the button, and the marble floor starts to softly glow.
+.fade4.delay9 Her shirt and hair slightly lifts up as an invisible energy rises up from the floor.
+.fade0.delay12 .
+.fade0.delay13 .
+.fade0.delay14 .
+%br
+.fade0.delay16 Her teeth, hair, and skin are all cleaned now.
+.fade0.delay17 [[go to work|work0]]
+
+
+::work0 [haml]
+.fade0.delay1 Right before she leaves her apartment, Myrm's shirt glowed a pale blue.
+.fade0.delay3 Her once green t-shirt stretched, growing around her legs and up her arms.
+.fade0.delay5 She grabs her lab coat and steps through the door, now wearing a set of navy blue scrubs under her coat.
+.fade2.delay8 Just outside of her door glows a bright white light.
+
+.fade4.delay10 Her room reverts to flat grey walls when she steps outside. The holograms that project her home decor deactivate to save power.
+.fade4.delay10 Robotic arms snake out of the walls to reclaim her possessions and places them into cubbyholes.
+%br
+.fade4.delay13 [[teleport to the lab|work1]]
+
+::work1 [haml]
+.fade0.delay1 She rematerializes in an ellipsoid room made up of a cool white material.
