@@ -3,7 +3,7 @@ babylon lost
 
 ::@include style.tw2
 
-::Starto [haml]
+::Start [haml]
 .fade0.delay1 babylon grieving
 .fade0.delay3 by moody rahman
 %br
@@ -24,35 +24,36 @@ babylon lost
 .fade0.delay15 [[lets watch|intro1]]
 
 ::intro1 [haml]
-.fade1 look! will smith just formed from the infinite randomness!
-.fade1.delay1 just look at that gigawatt smile
+.fade0.delay0 look! will smith just formed from the infinite randomness!
+.fade0.delay1 just look at that gigawatt smile
 %br
-.fade0.delay6 will smith just died after a brief moment of existing in the oxygenless environment of deep space.
-.fade0.delay8 <br>Rest In Peace <br> *How you live such a happy life? ~ Agent J, Men in Black III*
+.fade1.delay6 will smith just died after a brief moment of existing in the oxygenless environment of deep space.
+.fade2.delay8 <br>Rest In Peace <br> *How you live such a happy life? ~ Agent J, Men in Black III*
 %br
 %br
-.fade1.delay9 [[lets watch some more!|intro2]]
+.fade0.delay10 [[lets watch some more!|intro2]]
 
 ::intro2 [haml]
 .fade0.delay1 .
 .fade0.delay2 .
 .fade0.delay3 .
 .fade0.delay5 would you look at that
-.fade0.delay5 a brain just spontaneously formed in the void
-.fade0.delay6 [[inspect brain|intro3]]
+.fade0.delay7 a brain just spontaneously formed in the void
+.fade0.delay9 [[inspect brain|intro3]]
 
 ::intro3 [haml]
 .fade0.delay1 it's about 20 inches in diameter, and perfectly smooth
 .fade0.delay3 there's not even a brainstem
-.fade0.delay5 truth be told, i can't figure out who it belongs to
-.fade0.delay7 not even what species this belongs to
-.fade0.delay10 and that's saying something, i'm the closest thing to a god that you've seen so far
-.fade0.delay15 it's fated to die in the next few milliseconds
+.fade0.delay4 truth be told, i can't figure out who it belongs to
+.fade0.delay6 not even what species this belongs to
+.fade0.delay8 and that's saying something, i'm the closest thing to a god that you've seen so far
+.fade0.delay13 it's fated to die in the next few milliseconds
+.fade2.delay14 .
+.fade2.delay15 .
 .fade2.delay16 .
-.fade2.delay17 .
-.fade2.delay18 .
-.fade2.delay20 it's dreaming
-.fade2.delay22 [[observe the dream|dream0]]
+.fade2.delay19 it's dreaming
+%br
+.fade2.delay21 [[observe the dream|dream0]]
 
 ::@include dream.tw2
 

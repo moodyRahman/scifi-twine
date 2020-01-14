@@ -4,18 +4,24 @@ babylon lost
 :: UserScript [script]
     var s = window.story.state;
     s.roomobjects = ["posters", "desk", "cereal"];
-    s.deskobjects = ["tonwermer machine", "gyroscope", "proyecting lenses"]
 
 
 
-/* ::future0 [haml] */
-::Start [haml]
+::future0 [haml]
 %strong.fade0.delay1 *beep*
 %strong.fade0.delay2 *beep*
 %strong.fade0.delay3 *beep*
 
 .fade1.delay5 [[wake up|room0]]
-.fade1.delay6 [[snooze|room0]]
+.fade1.delay6 [[snooze|snoozeroom0]]
+
+
+
+::snoozeroom0 [haml]
+.fade0.delay1 Her wrist vibrates as her embedded interfaced brace releases nitrium into her blood stream.
+.fade0.delay3 She has no choice but to wake up now.
+.fade0.delay4 *goddamn this godforsaken machine making me get out of bed and actually do stuff*
+.fade0.delay6 [[wake up|room0]]
 
 
 ::room0 [haml]
@@ -28,52 +34,87 @@ babylon lost
 /* <% console.log(s.roomobjects);for(i=0; i < s.roomobjects.length; i++){console.log(s.roomobjects[i])}; %> */
 
 <% if (s.roomobjects.length === 0) { %>
-[[leave|hallway]]
+<div class="fade0 delay7">[[leave|hallway]]</div>
 <% } for(i=0; i < s.roomobjects.length; i++) { %> <%= "<div class='fade0 delay7'>[[" + s.roomobjects[i] + "|" + s.roomobjects[i] + "]]" %> <% } %>
 
 
 
 ::posters [haml]
-
 .fade0.delay1 The wall opposite her bed is covered in posters.
-.fade0.delay3 Will Smith just dropped his three-hundredth-and-forty-third album, whose album art is taped onto your wall.
-.fade0.delay6 To its right is a timeline of Xecrellian history.
+%br
+.fade0.delay3 Will Smith just dropped his three-hundredth-and-forty-third album, whose album art is taped onto her wall.
+.fade1.delay5 A grey filter over his grinning face with a superimposed pair of yellowing horns looks straight into your soul.
+%br
+.fade0.delay8 To its right is a timeline of Xecrellian history.
 %br
 %br
 <div class="poster">
-.fade2.delay8  *1.6 billion years ago           -  the universe was created*
-.fade2.delay10 *1 billion years ago             -  relu forms from the debris of our local star system*
-.fade2.delay12 *1.2 billion years ago           -  the twin moons, aereth and derse form from jettisonned material from relu's geothermic activity*
-.fade2.delay14 *600 million years ago           -  evidence of life on relu*
-.fade2.delay16 *50 million years ago            -  the first xecrals arose*
-.fade2.delay18 *15 million years ago            -  ashuin was domesticated, starting the agricultural revolution*
-.fade2.delay20 *15 million +- 10,000 years ago  -  evidence of a reality failure event detected*
-.fade2.delay22 *5 million years ago             -  the haber-brosch process was invented*
-.fade2.delay24 *500 thousand years ago          -  gentx was founded*
+.fade2.delay9  *1.6 billion years ago           -  the universe was created*
+.fade2.delay11 *1.2 billion years ago             -  relu forms from the debris of our local star system*
+.fade2.delay13 *1 billion years ago           -  the twin moons, aereth and derse form from jettisonned material from relu's geothermic activity*
+.fade2.delay15 *600 million years ago           -  evidence of life on relu*
+.fade2.delay17 *50 million years ago            -  the first xecrals arose*
+.fade2.delay19 *15 million years ago            -  ashuin was domesticated, starting the agricultural revolution*
+.fade2.delay21 *15 million +- 10,000 years ago  -  evidence of a reality failure event detected*
+.fade2.delay23 *5 million years ago             -  the haber-brosch process was invented*
+.fade2.delay25 *500 thousand years ago          -  gentx was founded*
 </div>
 <% var index = s.roomobjects.indexOf("posters"); if (index !== -1) s.roomobjects.splice(index, 1); %>
 
 <% if (s.roomobjects.length === 0) { %>
-[[leave|hallway]]
-<% } for(i=0; i < s.roomobjects.length; i++) { %> <%= "<div class='fade0 delay26'>[[" + s.roomobjects[i] + "|" + s.roomobjects[i] + "]]" %> <% } %>
+<div class="fade0 delay27 ">[[leave|hallway]]</div>
+<% } for(i=0; i < s.roomobjects.length; i++) { %> <%= "<div class='fade0 delay27'>[[" + s.roomobjects[i] + "|" + s.roomobjects[i] + "]]" %> <% } %>
 
 
 
-::desk [haml]
+:: desk [haml]
+.fade0.delay1 Her desk is covered with several inventions and gadgets she's acquired through questionable means.
+.fade0.delay4 The quintic abducator quietly buzzes as light flickers around in its transparent chamber.
+.fade0.delay7 A grappling hook lies atop a stack of textbooks.
+<div class="poster">
+.fade1.delay10 f(x) And More Math Jokes You Can Tell Yourself
+.fade1.delay11 Mathematics Made Difficult, by Carl E. Linderholm
+.fade1.delay12 The Geometry of Quantum Theory
+.fade1.delay13 Fresh Prince of Bel-Air Season One
+</div>
 
-.fade0.delay1
+
+.fade0.delay15 At it's center is her name tag.
+%br
+%c.fade0.delay17.nametag MYRM OBDOWYN
+%br
+%c.fade0.delay18.nametag SENIOR QUANTUM-REALITY NATURE RESEARCHER
+%br
+%br
+
+.fade0.delay20 She's rather terribly proud of her title.
+
+%br
+%br
 
 <% var index = s.roomobjects.indexOf("desk"); if (index !== -1) s.roomobjects.splice(index, 1); %>
 
 <% if (s.roomobjects.length === 0) { %>
-[[leave|hallway]]
-<% } for(i=0; i < s.roomobjects.length; i++) { %> <%= "<div class='fade0 delay0'>[[" + s.roomobjects[i] + "|" + s.roomobjects[i] + "]]" %> <% } %>
+<div class="fade0 delay22">[[leave|hallway]]</div>
+<% } for(i=0; i < s.roomobjects.length; i++) { %> <%= "<div class='fade0 delay22'>[[" + s.roomobjects[i] + "|" + s.roomobjects[i] + "]]" %> <% } %>
 
 
 
 ::cereal [haml]
+
+.fade0.delay1 Just a box of cereal?
+.fade0.delay2 Why are you observing this?
+%br
 <% var index = s.roomobjects.indexOf("cereal"); if (index !== -1) s.roomobjects.splice(index, 1); %>
 
 <% if (s.roomobjects.length === 0) { %>
-[[leave|hallway]]
-<% } for(i=0; i < s.roomobjects.length; i++) { %> <%= "<div class='fade0 delay0'>[[" + s.roomobjects[i] + "|" + s.roomobjects[i] + "]]" %> <% } %>
+<div class="fade0 delay4">[[leave|hallway]]</div>
+<% } for(i=0; i < s.roomobjects.length; i++) { %> <%= "<div class='fade0 delay4'>[[" + s.roomobjects[i] + "|" + s.roomobjects[i] + "]]" %> <% } %>
+
+
+
+
+
+::hallway [haml]
+.fade0.delay1 under construction
+.fade0.delay2 ~moody
