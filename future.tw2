@@ -167,3 +167,35 @@ babylon lost
 
 ::work1 [haml]
 .fade0.delay1 She rematerializes in an ellipsoid room made up of a cool white material.
+.fade0.delay3 Several xecrals are scrambling about, several papers are scattered about the room.
+.fade0.delay5 One of them, named Dleod, stops infront of Myrm.
+.fade0.delay7 &nbsp "Oh my god, Myrm, something terrible has happened"
+:fade1.delay9 [["..."|silencelab]]
+:fade1.delay9 [["What? What! What are you talking about?"|angrylab]]
+:fade1.delay9 [["It's okay, talk to me. What happened?"|calmlab]]
+
+::angrylab [haml]
+.fade0.delay1 "... Just go and check for yourself. Experiment 3D65B"
+%br
+.fade0.delay3 He walks off, muttering obsceneties in Myrm's direction.
+.fade0.delay5 [[go to experiment|3D65B]]
+
+::silencelab [haml]
+.fade2.delay1 "..."
+.fade2.delay4 "..."
+.fade2.delay7 "Experiment 3D65B"
+.fade0.delay9 He walks away with a puzzled look on his face.
+%br
+.fade0.delay11 [[go to experiment|3D65B]]
+
+::calmlab [haml]
+.fade1.delay1 "Things have been really crazy around here. Hamilton did something crazy with one of the machines and, and
+.fade1.delay3 no one really knows what's going on.
+.fade2.delay4 Thank you for being here missus head of the lab. It means a lot"
+.fade0.delay6 He walks away looking slightly reassured.
+%br
+.fade0.delay 8 [[go to experiment|3D65B]]
+
+
+::3D65B [haml]
+A passage opens up in the smooth walls of the oblong room,
