@@ -34,7 +34,7 @@ babylon lost
 /* <% console.log(s.roomobjects);for(i=0; i < s.roomobjects.length; i++){console.log(s.roomobjects[i])}; %> */
 
 <% if (s.roomobjects.length === 0) { %>
-<div class="fade0 delay7">[[leave|hallway]]</div>
+<div class="fade0 delay7">[[leave room|hallway]]</div>
 <% } for(i=0; i < s.roomobjects.length; i++) { %> <%= "<div class='fade0 delay7'>[[" + s.roomobjects[i] + "|" + s.roomobjects[i] + "]]" %> <% } %>
 
 
@@ -62,7 +62,7 @@ babylon lost
 <% var index = s.roomobjects.indexOf("posters"); if (index !== -1) s.roomobjects.splice(index, 1); %>
 
 <% if (s.roomobjects.length === 0) { %>
-<div class="fade0 delay27 ">[[leave|hallway]]</div>
+<div class="fade0 delay27 ">[[leave room|hallway]]</div>
 <% } for(i=0; i < s.roomobjects.length; i++) { %> <%= "<div class='fade0 delay27'>[[" + s.roomobjects[i] + "|" + s.roomobjects[i] + "]]" %> <% } %>
 
 
@@ -95,7 +95,7 @@ babylon lost
 <% var index = s.roomobjects.indexOf("desk"); if (index !== -1) s.roomobjects.splice(index, 1); %>
 
 <% if (s.roomobjects.length === 0) { %>
-<div class="fade0 delay22">[[leave|hallway]]</div>
+<div class="fade0 delay22">[[leave room|hallway]]</div>
 <% } for(i=0; i < s.roomobjects.length; i++) { %> <%= "<div class='fade0 delay22'>[[" + s.roomobjects[i] + "|" + s.roomobjects[i] + "]]" %> <% } %>
 
 
@@ -108,13 +108,37 @@ babylon lost
 <% var index = s.roomobjects.indexOf("cereal"); if (index !== -1) s.roomobjects.splice(index, 1); %>
 
 <% if (s.roomobjects.length === 0) { %>
-<div class="fade0 delay4">[[leave|hallway]]</div>
+<div class="fade0 delay4">[[leave room|hallway]]</div>
 <% } for(i=0; i < s.roomobjects.length; i++) { %> <%= "<div class='fade0 delay4'>[[" + s.roomobjects[i] + "|" + s.roomobjects[i] + "]]" %> <% } %>
 
 
 
 
 
-::hallway [haml]
-.fade0.delay1 under construction
-.fade0.delay2 ~moody
+
+::Start [haml]
+.fade0.delay1 Her living room is considerably more plain compared to her bedroom.
+.fade0.delay3 It's walls are painted rust, their color static despite the light fixture.
+%br
+.fade0.delay5 In front of the auburn couch is a central entertainment console.
+.fade0.delay7 It just turned itself on, having detected Myrm's presence in the room.
+.fade0.delay9 It's holographic panel projects her health information above the consoles smooth glass top.
+%br
+.fade0.delay11 Behind her couch are a few steps that go down to the front door of the apartment.
+.fade0.delay13 Next to the door is a coat rack. On it hangs a white lab coat.
+%br
+.fade0.delay15 On the left wall is a door that leads into her bathroom.
+%br
+
+.fade0.delay17 [[leave apartment|grosswork]]
+.fade0.delay17 [[brush teeth|bathroom0]]
+
+::grosswork [haml]
+.fade1.delay1. You're really gonna try to make Myrm leave her place without brushing her teeth?
+.fade0.delay3 You disgusting animal.
+%br
+.fade0.delay5 [[brush teeth like a normal fucking human|bathroom0]]
+
+
+::bathroom0 [haml]
+.fade0.delay1 mood
