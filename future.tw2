@@ -117,7 +117,7 @@ babylon lost
 
 
 
-::Start [haml]
+::hallway [haml]
 .fade0.delay1 Her living room is considerably more plain compared to her bedroom.
 .fade0.delay3 It's walls are painted rust, their color static despite the light fixture.
 %br
@@ -136,7 +136,7 @@ babylon lost
 
 ::grosswork [haml]
 .fade1.delay1 You're really gonna try to make Myrm leave her place without brushing her teeth?
-.fade0.delay3 You disgusting animal.
+.fade0.delay4 You disgusting animal.
 %br
 .fade0.delay5 [[brush teeth like a normal xecral for crying out loud|bathroom0]]
 
@@ -150,8 +150,9 @@ babylon lost
 .fade0.delay13 .
 .fade0.delay14 .
 %br
-.fade0.delay16 Her teeth, hair, and skin are all cleaned now.
-.fade0.delay17 [[go to work|work0]]
+.fade0.delay16 Her teeth are brushed, hair cleaned, and face washed.
+.fade0.delay18 The wonders of anioscopic thermocule technology.
+.fade0.delay20 [[go to work|work0]]
 
 
 ::work0 [haml]
@@ -159,7 +160,7 @@ babylon lost
 .fade0.delay3 Her once green t-shirt stretched, growing around her legs and up her arms.
 .fade0.delay5 She grabs her lab coat and steps through the door, now wearing a set of navy blue scrubs under her coat.
 .fade2.delay8 Just outside of her door glows a bright white light.
-
+%br
 .fade4.delay10 Her room reverts to flat grey walls when she steps outside. The holograms that project her home decor deactivate to save power.
 .fade4.delay10 Robotic arms snake out of the walls to reclaim her possessions and places them into cubbyholes.
 %br
@@ -168,16 +169,16 @@ babylon lost
 ::work1 [haml]
 .fade0.delay1 She rematerializes in an ellipsoid room made up of a cool white material.
 .fade0.delay3 Several xecrals are scrambling about, several papers are scattered about the room.
-.fade0.delay5 One of them, named Dleod, stops infront of Myrm.
-.fade0.delay7 &nbsp "Oh my god, Myrm, something terrible has happened"
-:fade1.delay9 [["..."|silencelab]]
-:fade1.delay9 [["What? What! What are you talking about?"|angrylab]]
-:fade1.delay9 [["It's okay, talk to me. What happened?"|calmlab]]
+.fade0.delay5 One of them, a tall brown-haired xecreal, Hamilton, stops infront of Myrm.
+.fade0.delay7 "Oh my god, Myrm, something terrible has happened"
+.fade1.delay9 [["..."|silencelab]]
+.fade1.delay9 [["What? What! What are you talking about?"|angrylab]]
+.fade1.delay9 [["It's okay, talk to me. What happened?"|calmlab]]
 
 ::angrylab [haml]
 .fade0.delay1 "... Just go and check for yourself. Experiment 3D65B"
-%br
 .fade0.delay3 He walks off, muttering obsceneties in Myrm's direction.
+%br
 .fade0.delay5 [[go to experiment|3D65B]]
 
 ::silencelab [haml]
@@ -189,8 +190,8 @@ babylon lost
 .fade0.delay11 [[go to experiment|3D65B]]
 
 ::calmlab [haml]
-.fade1.delay1 "Things have been really crazy around here. Hamilton did something crazy with one of the machines and, and
-.fade1.delay3 no one really knows what's going on.
+.fade1.delay1 "Things have been really crazy around here. Hamilton did something crazy with some of the old cheshweh DNA, and, and, and...
+.fade1.delay3 No one really knows what's going on.
 .fade2.delay4 Thank you for being here missus head of the lab. It means a lot"
 .fade0.delay6 He walks away looking slightly reassured.
 %br
@@ -198,4 +199,65 @@ babylon lost
 
 
 ::3D65B [haml]
-A passage opens up in the smooth walls of the oblong room,
+.fade2.delay1 A passage opens up in the smooth walls of the oblong room, leading into a brightly lit tube.
+.fade2.delay4 Myrm enters the passage, and after a few minutes of walking she emerges in the room where Experiment 3D65B is being conducted.
+%br
+.fade3.delay7 A shaft of brilliant white light is radiating straight up from the floor.
+.fade3.delay10 At the base of the light is a silhouette of a tree, it's rotund fruit obvious amongst its sparse leaves.
+.fade3.delay13 The light is surrounded by a shield of transtempuric glass as azure sparks of energy dance on the surface of the glass.
+.fade1.delay16 The perimenter of the room is lined with several monitors, displaying the data being collected from the light.
+%br
+.fade2.delay18 Hamilton walks into the room.
+.fade2.delay20 [[speak to Hamilton|hamilton0]]
+
+
+::hamilton0 [haml]
+.fade0.delay1 "It's insane, the energy signatures we're getting exactly matches what remains from where we found the DNA of that cheshweh tree."
+%br
+.fade0.delay3 Another xecral just walked into the experiment chambers, their ID tag reads
+%br
+.fade0.delay5.nametag MARLOWYN DUNSTYG
+.fade0.delay6.nametag JUNIOR INTERN
+%br
+.fade0.delay7 "We've also been throwing some objects into the beam of light after getting to readings whatsoever on it's content. We might see that tree there but none of our equipment can actually detect it."
+.fade0.delay14 [[a nearby computer spits out a long strip of paper|paper0]]
+
+
+::paper0 [haml]
+.fade0.delay1 Myrm grabs the paper and tears it off.
+.fade2.delay3 It's covered in archaic symbols and number.
+.fade2.delay5 She points to a specific region on the paper and shows the rest of them.
+%br
+<div class="poster">
+.fade0.delay7 Ax-455 PZCIANV3FF
+.fade0.delay8 Bx-456 XF68UUAORF
+.fade0.delay9 Cx-457 GINYBE51E8
+.fade0.delay10 0x-458 QCBA2R8TN7
+.fade0.delay11 0x-459 BZ00000000
+.fade0.delay12 0x-460 0000000000
+.fade0.delay13 0x-461 0000000000
+.fade0.delay14 0x-462 0000000000
+.fade0.delay15 0x-463 000000GD2M
+.fade0.delay16 Dx-464 STIUWADOZI
+</div>
+%br
+.fade0.delay17 "A 0x memory registration? Where is all this phantom data coming from?"
+.fade0.delay19 Marlowyn responds, "The technicians are losing their minds trying to fix this bug. It's the first issue the lab computers have had in..."
+.fade0.delay24 Hamilton chimes in, "Not a single programming or hardware bug in the past five thousand years. Quantum singularity designed machines are physically garunteed to be bug-free."
+%br
+.fade0.delay29 Myrm considers the paper in her hand.
+.fade0.delay25 As she goes deeper and deeper into her thoughts, the paper feels much heavier than it initally did.
+%br
+.fade3.delay28 "What if, just what if, this isn't a bug in our machine. It's..."
+.fade3.delay32 "It's what?"
+.fade5.delay36 "It's a bug in our reality"
+%br
+.fade0.delay17 A loud thud followed by a scream echoes through the lab.
+.fade0.delay18 [[look |grencaidfuture0]]
+
+
+::grencaidfuture0 [haml]
+.fade3.delay1 The column of light suddenly disappeared, leaving a massive hole in the cieling of the lab.
+.fade3.delay4 On the floor, behind the glass, lies a xecral body.
+.fade3.delay8 Their skull is bashed in, and their limbs are at odd angles. Around their mouth are stains of dried blood, evidence of prolonged and intense screaming.
+.fade3.delay16 In their right hand was a basket, entirely untouched. 
