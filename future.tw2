@@ -168,9 +168,11 @@ babylon lost
 
 ::work1 [haml]
 .fade0.delay1 She rematerializes in an ellipsoid room made up of a cool white material.
-.fade0.delay3 Several xecrals are scrambling about, several papers are scattered about the room.
+.fade0.delay3 Several xecrals are scrambling about, as papers are scattered throughout the room.
 .fade0.delay5 One of them, a tall brown-haired xecreal, Hamilton, stops infront of Myrm.
 .fade0.delay7 "Oh my god, Myrm, something terrible has happened"
+%br
+%br
 .fade1.delay9 [["..."|silencelab]]
 .fade1.delay9 [["What? What! What are you talking about?"|angrylab]]
 .fade1.delay9 [["It's okay, talk to me. What happened?"|calmlab]]
@@ -220,10 +222,12 @@ babylon lost
 .fade0.delay6.nametag JUNIOR INTERN
 %br
 .fade0.delay7 "We've also been throwing some objects into the beam of light after getting to readings whatsoever on it's content. We might see that tree there but none of our equipment can actually detect it."
-.fade0.delay14 [[a nearby computer spits out a long strip of paper|paper0]]
+.fade0.delay14 Myrm replies, "Did you guys already choose a name for what's going on?"
+.fade0.delay16 "Some of the energy signatures also match the anomalous readings from where we believe a reality failure event to have occured fifteen million years ago."
+.fade0.delay20 [[a nearby computer spits out a long strip of paper|paper0]]
 
 
-::paper0 [haml]
+::Start [haml]
 .fade0.delay1 Myrm grabs the paper and tears it off.
 .fade2.delay3 It's covered in archaic symbols and number.
 .fade2.delay5 She points to a specific region on the paper and shows the rest of them.
@@ -246,18 +250,19 @@ babylon lost
 .fade0.delay24 Hamilton chimes in, "Not a single programming or hardware bug in the past five thousand years. Quantum singularity designed machines are physically garunteed to be bug-free."
 %br
 .fade0.delay29 Myrm considers the paper in her hand.
-.fade0.delay25 As she goes deeper and deeper into her thoughts, the paper feels much heavier than it initally did.
+.fade0.delay33 As she goes deeper and deeper into her thoughts, the paper feels much heavier than it initally did.
 %br
-.fade3.delay28 "What if, just what if, this isn't a bug in our machine. It's..."
-.fade3.delay32 "It's what?"
-.fade5.delay36 "It's a bug in our reality"
+.fade3.delay38 "What if, just what if, this isn't a bug in our machine. It's..."
+.fade3.delay42 "It's what?"
+.fade2.delay46 "It's a bug in our reality."
 %br
-.fade0.delay17 A loud thud followed by a scream echoes through the lab.
-.fade0.delay18 [[look |grencaidfuture0]]
+.fade0.delay48 A loud thud followed by a scream echoes through the lab.
+.fade0.delay49 Everyone stops rushing around, all attention is now on the light column.
+.fade0.delay50 [[look |grencaidfuture0]]
 
 
 ::grencaidfuture0 [haml]
 .fade3.delay1 The column of light suddenly disappeared, leaving a massive hole in the cieling of the lab.
 .fade3.delay4 On the floor, behind the glass, lies a xecral body.
 .fade3.delay8 Their skull is bashed in, and their limbs are at odd angles. Around their mouth are stains of dried blood, evidence of prolonged and intense screaming.
-.fade3.delay16 In their right hand was a basket, entirely untouched. 
+.fade3.delay16 In their right hand was a basket, entirely untouched.
