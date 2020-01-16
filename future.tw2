@@ -256,13 +256,16 @@ babylon lost
 .fade3.delay42 "It's what?"
 .fade2.delay46 "It's a bug in our reality."
 %br
-.fade0.delay48 A loud thud followed by a scream echoes through the lab.
+.fade0.delay48 A loud thud follows a scream that echoes through the lab.
 .fade0.delay49 Everyone stops rushing around, all attention is now on the light column.
 .fade0.delay50 [[look |grencaidfuture0]]
 
 
 ::grencaidfuture0 [haml]
-.fade3.delay1 The column of light suddenly disappeared, leaving a massive hole in the ceiling of the lab.
+.fade3.delay1 The column of light suddenly disappears, leaving a massive hole in the ceiling of the lab.
 .fade3.delay4 On the floor, behind the glass, lies a xecral body.
 .fade3.delay8 Their skull is bashed in, and their limbs are at odd angles. Around their mouth are stains of dried blood, evidence of prolonged and intense screaming.
-.fade3.delay16 In their right hand was a basket, entirely untouched.
+.fade3.delay16 In their right hand is a woven basket, entirely untouched.
+%br
+%br
+.fade3.delay19 [[s t a r t|hyperfuture0]]
