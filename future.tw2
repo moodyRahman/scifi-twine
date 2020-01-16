@@ -80,7 +80,7 @@ babylon lost
 </div>
 
 
-.fade0.delay15 At it's center is her name tag.
+.fade0.delay15 At its center is her name tag.
 %br
 %c.fade0.delay17.nametag MYRM OBDOWYN
 %br
@@ -157,14 +157,14 @@ babylon lost
 
 ::work0 [haml]
 .fade0.delay1 Right before she leaves her apartment, Myrm's shirt glowed a pale blue.
-.fade0.delay3 Her once green t-shirt stretched, growing around her legs and up her arms.
+.fade0.delay3 Her once green t-shirt stretches and grows around her legs and up her arms.
 .fade0.delay5 She grabs her lab coat and steps through the door, now wearing a set of navy blue scrubs under her coat.
 .fade2.delay8 Just outside of her door glows a bright white light.
 %br
 .fade4.delay10 Her room reverts to flat grey walls when she steps outside. The holograms that project her home decor deactivate to save power.
 .fade4.delay10 Robotic arms snake out of the walls to reclaim her possessions and places them into cubbyholes.
 %br
-.fade4.delay13 [[teleport to the lab|work1]]
+.fade4.delay13 [[teleport to the lab  |work1]]
 
 ::work1 [haml]
 .fade0.delay1 She rematerializes in an ellipsoid room made up of a cool white material.
@@ -227,9 +227,9 @@ babylon lost
 .fade0.delay20 [[a nearby computer spits out a long strip of paper|paper0]]
 
 
-::Start [haml]
+::paper0 [haml]
 .fade0.delay1 Myrm grabs the paper and tears it off.
-.fade2.delay3 It's covered in archaic symbols and number.
+.fade2.delay3 It's covered in archaic symbols and numbers.
 .fade2.delay5 She points to a specific region on the paper and shows the rest of them.
 %br
 <div class="poster">
@@ -262,7 +262,7 @@ babylon lost
 
 
 ::grencaidfuture0 [haml]
-.fade3.delay1 The column of light suddenly disappeared, leaving a massive hole in the cieling of the lab.
+.fade3.delay1 The column of light suddenly disappeared, leaving a massive hole in the ceiling of the lab.
 .fade3.delay4 On the floor, behind the glass, lies a xecral body.
 .fade3.delay8 Their skull is bashed in, and their limbs are at odd angles. Around their mouth are stains of dried blood, evidence of prolonged and intense screaming.
 .fade3.delay16 In their right hand was a basket, entirely untouched.
