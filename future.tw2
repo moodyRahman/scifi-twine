@@ -197,7 +197,7 @@ babylon lost
 .fade2.delay4 Thank you for being here missus head of the lab. It means a lot"
 .fade0.delay6 He walks away looking slightly reassured.
 %br
-.fade0.delay 8 [[go to experiment|3D65B]]
+.fade0.delay8 [[go to experiment|3D65B]]
 
 
 ::3D65B [haml]
@@ -247,18 +247,25 @@ babylon lost
 %br
 .fade0.delay17 "A 0x memory registration? Where is all this phantom data coming from?"
 .fade0.delay19 Marlowyn responds, "The technicians are losing their minds trying to fix this bug. It's the first issue the lab computers have had in..."
-.fade0.delay24 Hamilton chimes in, "Not a single programming or hardware bug in the past five thousand years. Quantum singularity designed machines are physically garunteed to be bug-free."
+.fade0.delay24 Hamilton chimes in, "Not a single programming or hardware bug in the past five thousand years. Quantum singularity designed machines are physically guarunteed to be bug-free."
 %br
 .fade0.delay29 Myrm considers the paper in her hand.
 .fade0.delay33 As she goes deeper and deeper into her thoughts, the paper feels much heavier than it initally did.
 %br
-.fade3.delay38 "What if, just what if, this isn't a bug in our machine. It's..."
-.fade3.delay42 "It's what?"
-.fade2.delay46 "It's a bug in our reality."
+
+.fade0.delay38 "How long have we been running the transtempuric chambers?"
+.fade0.delay42 "It's been applying a two hundred thousand factor time dialation over the past day for an equivalent of ten thousand years"
+,fade0.delay45 "We;ve had several computers check the outputs, they're all match. Certain parts of out reality, just, don't exist."
+.fade0.delay48 "Saying that they're incapable of existing is more apt. The moment that cheshweh tree was fully reconstructed, it collapsed into a reality failure event."
+
+
+.fade3.delay52 "What if, just what if, this isn't a bug in our machine. It's..."
+.fade3.delay55 "It's what?"
+.fade2.delay58 "It's a bug in our reality."
 %br
-.fade0.delay48 A loud thud follows a scream that echoes through the lab.
-.fade0.delay49 Everyone stops rushing around, all attention is now on the light column.
-.fade0.delay50 [[look |grencaidfuture0]]
+.fade0.delay62 A loud thud follows a scream that echoes through the lab.
+.fade0.delay65 Everyone stops rushing around, all attention is now on the light column.
+.fade0.delay67 [[look |grencaidfuture0]]
 
 
 ::grencaidfuture0 [haml]
