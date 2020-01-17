@@ -3,8 +3,8 @@ babylon lost
 
 ::@include style.tw2
 
-::Starto [haml]
-.fade0.delay1 babylon grieving
+::Start [haml]
+.fade0.delay1 babylon lost
 .fade0.delay3 by moody rahman
 %br
 .fade3.delay4 [[start|intro0]]
