@@ -1,10 +1,6 @@
 :: StoryTitle
 babylon lost
 
-:: UserScript [script]
-    var s = window.story.state;
-    s.roomobjects = ["posters", "desk", "cereal"];
-
 
 
 ::future0 [haml]
@@ -32,11 +28,20 @@ babylon lost
 %br
 %br
 
-/* <% console.log(s.roomobjects);for(i=0; i < s.roomobjects.length; i++){console.log(s.roomobjects[i])}; %> */
+<<set $room to ["posters", "desk", "cereal"]>>
 
-<% if (s.roomobjects.length === 0) { %>
-<div class="fade0 delay9">[[leave room|hallway]]</div>
-<% } for(i=0; i < s.roomobjects.length; i++) { %> <%= "<div class='fade0 delay9'>[[" + s.roomobjects[i] + "|" + s.roomobjects[i] + "]]" %> <% } %>
+<<script>>
+<</script>>
+
+<<if $room.length == 0>>
+[[leave room|hallway]]
+
+<<else>>
+<<for $i to 0; $i lt $room.length; $i++>>
+<div class="fade0 delay1">[[$room[$i]|$room[$i]]]</div>
+<</for>>
+
+<</if>>
 
 
 
@@ -60,12 +65,22 @@ babylon lost
 .fade2.delay23 *5 million years ago             -  the haber-brosch process was invented*
 .fade2.delay25 *500 thousand years ago          -  gentx was founded*
 </div>
-<% var index = s.roomobjects.indexOf("posters"); if (index !== -1) s.roomobjects.splice(index, 1); %>
 
-<% if (s.roomobjects.length === 0) { %>
-<div class="fade0 delay27 ">[[leave room|hallway]]</div>
-<% } for(i=0; i < s.roomobjects.length; i++) { %> <%= "<div class='fade0 delay27'>[[" + s.roomobjects[i] + "|" + s.roomobjects[i] + "]]" %> <% } %>
+<<script>>
+var i = state.active.variables.room.indexOf("posters");
+console.log(state.active.variables.room)
+console.log(i)
+state.active.variables.room.splice(i, 1);
+<</script>>
 
+<<if $room.length == 0>>
+<div class="fade0 delay27">[[leave room|hallway]]</div>
+<<else>>
+<<for $i to 0; $i lt $room.length; $i++>>
+<div class="fade0 delay1=27">[[$room[$i]|$room[$i]]]</div>
+<</for>>
+
+<</if>>
 
 
 :: desk [haml]
@@ -93,12 +108,22 @@ babylon lost
 %br
 %br
 
-<% var index = s.roomobjects.indexOf("desk"); if (index !== -1) s.roomobjects.splice(index, 1); %>
+<<script>>
+var i = state.active.variables.room.indexOf("desk");
+console.log(state.active.variables.room)
+console.log(i)
+state.active.variables.room.splice(i, 1);
+<</script>>
 
-<% if (s.roomobjects.length === 0) { %>
+<<if $room.length == 0>>
 <div class="fade0 delay22">[[leave room|hallway]]</div>
-<% } for(i=0; i < s.roomobjects.length; i++) { %> <%= "<div class='fade0 delay22'>[[" + s.roomobjects[i] + "|" + s.roomobjects[i] + "]]" %> <% } %>
 
+<<else>>
+<<for $i to 0; $i lt $room.length; $i++>>
+<div class="fade0 delay22">[[$room[$i]|$room[$i]]]</div>
+<</for>>
+
+<</if>>
 
 
 ::cereal [haml]
@@ -106,13 +131,23 @@ babylon lost
 .fade0.delay1 Just a box of cereal?
 .fade0.delay2 Why are you observing this?
 %br
-<% var index = s.roomobjects.indexOf("cereal"); if (index !== -1) s.roomobjects.splice(index, 1); %>
 
-<% if (s.roomobjects.length === 0) { %>
+<<script>>
+var i = state.active.variables.room.indexOf("cereal");
+console.log(state.active.variables.room)
+console.log(i)
+state.active.variables.room.splice(i, 1);
+<</script>>
+
+<<if $room.length == 0>>
 <div class="fade0 delay4">[[leave room|hallway]]</div>
-<% } for(i=0; i < s.roomobjects.length; i++) { %> <%= "<div class='fade0 delay4'>[[" + s.roomobjects[i] + "|" + s.roomobjects[i] + "]]" %> <% } %>
 
+<<else>>
+<<for $i to 0; $i lt $room.length; $i++>>
+<div class="fade0 delay4">[[$room[$i]|$room[$i]]]</div>
+<</for>>
 
+<</if>>
 
 
 
